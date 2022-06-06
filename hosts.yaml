@@ -1,15 +1,21 @@
 ---
-R1:
+LEFT:
     hostname: "192.168.227.231"
+    username: "cisco"
+    password: "cisco"
     groups:
         - cisco_group
 
-R2:
+MIDDLE:
     hostname: "192.168.227.232"
+    username: "cisco"
+    password: "cisco"
     groups:
         - cisco_group
 
-R3:
+RIGHT:
     hostname: "192.168.227.233"
+    username: "cisco"
+    password: "cisco"
     groups:
         - cisco_group
